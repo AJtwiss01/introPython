@@ -1,5 +1,6 @@
 def main():
-    print('This prgram prints future values')
+
+    print('This program prints future values')
     print('Of ten year investments')
 
     principal = eval(input("enter initial value: "))
