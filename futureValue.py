@@ -1,4 +1,4 @@
-def main():
+def myCalc():
 
     print('This program prints future values')
     print('Of ten year investments')
@@ -9,6 +9,4 @@ def main():
         year = i + 1
         principal = principal *(1 + apr)
         print("the value in 10 years " + str(year), principal)
-if __name__ == "__main__":
-    
-    main()
+myCalc()
